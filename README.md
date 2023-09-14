@@ -13,14 +13,49 @@ perspectives and possibilities. Ultimately, the objective of this project is to 
 and accurate solution that can aid educators in creating engaging and challenging
 assessments for their students.
 
-###😎Preview:
+### 😎Preview: <br>
 
-''' # Very long text
-text_2 = "Elon Musk and Bitcoin: A Complex Relationship.The intersection of Elon Musk, the enigmatic billionaire entrepreneur, and Bitcoin, the groundbreaking cryptocurrency, has been the subject of much fascination, speculation, and scrutiny in recent years. Musk, known for his ventures like Tesla, SpaceX, Neuralink, and The Boring Company, has proven to be a polarizing figure in the world of finance and technology, with his tweets and actions having significant implications for the price and perception of Bitcoin. This narrative explores the multifaceted relationship between Elon Musk and Bitcoin, delving into key events, controversies, and the broader implications for the cryptocurrency landscape.Elon Musk: A Brief Overview.Before delving into Musk's connection with Bitcoin, it's essential to understand who Elon Musk is and his role in the tech and automotive industries. Born in South Africa in 1971, Musk displayed a prodigious talent for technology from a young age. He moved to the United States to attend the University of Pennsylvania, where he earned dual bachelor's degrees in physics and economics.Musk's entrepreneurial journey began with the creation of Zip2, a software company he co-founded in 1995,………………………………” 
-final_questions = get_mca_questions(text_2)
-for q in final_questions:
-    print(q)
-'''
+<b> Very long text </b> <br>
+text_2 = "Elon Musk and Bitcoin: A Complex Relationship.The intersection of Elon Musk, the enigmatic billionaire entrepreneur, and Bitcoin, the groundbreaking cryptocurrency, has been the subject of much fascination, speculation, and scrutiny in recent years. Musk, known for his ventures like Tesla, SpaceX, Neuralink, and The Boring Company, has proven to be a polarizing figure in the world of finance and technology, with his tweets and actions having significant implications for the price and perception of Bitcoin. This narrative explores the multifaceted relationship between Elon Musk and Bitcoin, delving into key events, controversies, and the broader implications for the cryptocurrency landscape.Elon Musk: A Brief Overview.Before delving into Musk's connection with Bitcoin, it's essential to understand who Elon Musk is and his role in the tech and automotive industries. Born in South Africa in 1971, Musk displayed a prodigious talent for technology from a young age. He moved to the United States to attend the University of Pennsylvania, where he earned dual bachelor's degrees in physics and economics.Musk's entrepreneurial journey began with the creation of Zip2, a software company he co-founded in 1995,………………………………”  <br><br>
+final_questions = get_mca_questions(text_2) <br>
+for q in final_questions: <br>
+    print(q) <br><br>
+
+<b> Output </b> <br>
+1. Along with spacex, neuralink and boring company, what is a notable venture of Elon Musk? <br>
+(a)tesla <br>
+(b)Musk <br>
+(c)Prius <br>
+(d)Nissan <br>
+Correct answer is : (a)
+
+2. The narrative explores the multifaceted relationship between elon musk and what? <br>
+(a)Btc <br>
+(b)Fiat <br>
+(c)bitcoin <br>
+(d)Cryptocurrency <br>
+Correct answer is : (c) <br>
+
+3. What is elon musk known for? <br>
+(a)Other tweets <br>
+(b)tweets <br>
+(c)Reddit posts <br>
+(d)Facebook posts <br>
+Correct answer is : (b)
+
+4. What type of investment did elon musk make? <br>
+(a)elon musk <br>
+(b)bitcoin investment <br>
+(c)musk <br>
+(d)tesla <br>
+Correct answer is : (b)
+
+5. What type of vehicle is elon musk known for? <br>
+(a)Battery storage <br>
+(b)electric vehicles <br>
+(c)Internal combustion engines <br>
+(d)Clean energy <br>
+Correct answer is : (b)
 
 ### ✅Solution methodology:
 Here the goal of the problem is a little complex, where developing a solution from scratch takes time and thorough training and fine tuning on certain domain specific data. Although there are many API's available like gpt-3 etc, as this problem is posed in the interest of production usage for any company, we cannot rely on external API's very much. But we have taken small pretrained models here and demonstrated the overall work flow of the project, how to develop the solution for this kind of a problem.
